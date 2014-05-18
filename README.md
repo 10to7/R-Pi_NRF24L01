@@ -1,4 +1,4 @@
-R-Pi_NRF24L01
-=============
+Raspberry Pi NRF24L01
+==================
 
-A breakout board for a Raspberry Pi to a cheap NRF24L01 2.5GHz board
+A breakout board for one of the cheap NRF24L01 modules for Raspbery Pi.

@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Mon 12 May 2014 23:12:09 BST
+
+BeginCmp
+TimeStamp = /53713FC8;
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53714531;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53714545;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53714552;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53714575;
+Reference = R1;
+ValeurCmp = 330;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5371457C;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53714581;
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53713C95;
+Reference = U1;
+ValeurCmp = R-PI_GPIO;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /537136C9;
+Reference = U2;
+ValeurCmp = NRF24L01-8PIN;
+IdModule  = pin_array_4x2;
+EndCmp
+
+EndListe

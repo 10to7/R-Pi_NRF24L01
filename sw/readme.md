@@ -27,7 +27,7 @@ $ sudo ./rpi-hub
 To send data to the hub on a second raspberry pi run
 $ sudo ./sendto_hub
 
-Alternatively use the nRF24_sendto_hub arduino script
+Alternatively use the nRF24_sendto_hub arduino script. You will need to add the nRF24 library to your arduino ide to get the NRF24.h
 
 Wire up your module to the arduino as follows:
 

@@ -41,4 +41,4 @@ Wire up your module to the arduino as follows:
 |3v3		| 3v3		|
 |GND		| GND		|
 
-
+Add an additional 100uF capacitor between 3v3 and GND. The arduino nano will be able to send to the R-Pi, but it may not be able to reveive packets without the capacitor.

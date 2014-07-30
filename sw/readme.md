@@ -6,16 +6,17 @@ https://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/occide
 
 Ensure you enable SPI.
 
-$ git clone https://github.com/10to7/RF24.git
-$ cd RF24
+$ git clone https://github.com/10to7/RF24.git <br/>
+$ cd RF24 <br />
 $ cd librf24-rpi/librf24
-Compile the library
+
+Compile the library <br />
 $ make                                
 $ sudo make install              
 $ sudo ldconfig -v | grep librf
      librf24.so.1 -> librf24.so.1.0
 
-$ cd ../examples/
+$ cd ../examples/ <br />
 You should now be in RF24/librf24-rpi/librf24/examples
 
 $ make
@@ -24,7 +25,7 @@ To run the programs, type
 
 $ sudo ./rpi-hub
 
-To send data to the hub on a second raspberry pi run
+To send data to the hub on a second raspberry pi run <br />
 $ sudo ./sendto_hub
 
 Alternatively use the nRF24_sendto_hub arduino script. You will need to add the nRF24 library to your arduino ide to get the NRF24.h
